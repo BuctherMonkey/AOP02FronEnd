@@ -1,0 +1,213 @@
+/* Resetando o estilo padrão do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Section */
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Seções */
+section {
+  margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+/* Página Home */
+h1, h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #666;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Página de Contato */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+form input,
+form textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 12px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #444;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+section ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+section ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Outras Páginas */
+article {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+  font-size: 22px;
+  color: #333;
+}
+
+article p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Links dentro do conteúdo */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Para as imagens de destaque na home */
+.home-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.home-img-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header nav ul {
+      display: block;
+      text-align: center;
+  }
+
+  header nav ul li {
+      display: block;
+      margin: 10px 0;
+  }
+
+  form {
+      width: 100%;
+      padding: 15px;
+  }
+
+  article {
+      padding: 15px;
+  }
+}
+
+
+img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+}
+
+
+header nav ul li a.active {
+  border-bottom: 2px solid #fff; 
+  padding-bottom: 8px; 
+}
