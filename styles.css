@@ -1,11 +1,9 @@
-/* Resetando o estilo padrão do navegador */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Corpo da página */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -13,7 +11,6 @@ body {
   color: #333;
 }
 
-/* Cabeçalho */
 header {
   background-color: #333;
   color: white;
@@ -40,19 +37,16 @@ header nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Main Section */
 main {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Seções */
 section {
   margin-bottom: 30px;
 }
 
-/* Footer */
 footer {
   background-color: #333;
   color: white;
@@ -61,7 +55,6 @@ footer {
   width: 100%;
 }
 
-/* Página Home */
 h1, h2 {
   color: #333;
   margin-bottom: 15px;
@@ -76,7 +69,6 @@ p {
   margin-bottom: 20px;
 }
 
-/* Página de Contato */
 form {
   display: flex;
   flex-direction: column;
@@ -136,7 +128,6 @@ section ul li a:hover {
   text-decoration: underline;
 }
 
-/* Outras Páginas */
 article {
   background-color: #fff;
   padding: 20px;
@@ -155,7 +146,6 @@ article p {
   margin-bottom: 15px;
 }
 
-/* Links dentro do conteúdo */
 a {
   color: #333;
   text-decoration: none;
@@ -165,7 +155,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Para as imagens de destaque na home */
 .home-img {
   width: 100%;
   height: auto;
@@ -177,7 +166,6 @@ a:hover {
   text-align: center;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   header nav ul {
       display: block;
