@@ -28,7 +28,7 @@
 
             <section>
                 <h2>Formulário de Contato</h2>
-                <form action="#" method="post">
+                <form id="contactForm">
                     <label for="nome">Seu Nome:</label>
                     <input type="text" id="nome" name="nome" required>
 
@@ -40,13 +40,14 @@
 
                     <button type="submit">Enviar</button>
                 </form>
+                <p id="statusMessage" style="display: none;">Envio Concluído!</p>
             </section>
 
             <section>
+                <!--Dados ficticios-->
                 <h2>Informações de Contato</h2>
                 <p>Você também pode entrar em contato conosco diretamente por meio dos seguintes canais:</p>
                 <ul>
-                    <!--Dados fictícios-->
                     <li><strong>Email:</strong> <a href="mailto:contato@blogfinancas.com">contato@blogfinancas.com</a></li>
                     <li><strong>Telefone:</strong> (11) 1234-5678</li>
                     <li><strong>Endereço:</strong> Rua das Finanças, 123, São Paulo - SP, Brasil</li>
@@ -57,5 +58,7 @@
         <footer>
             <p>&copy; 2024 Blog de Finanças. Todos os direitos reservados.</p>
         </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>

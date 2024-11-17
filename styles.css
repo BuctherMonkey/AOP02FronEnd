@@ -187,15 +187,20 @@ a:hover {
   }
 }
 
-
 img {
   width: 100%;
   max-width: 280px;
   height: auto;
 }
 
-
 header nav ul li a.active {
   border-bottom: 2px solid #fff; 
   padding-bottom: 8px; 
+}
+
+#statusMessage {
+  color: green;
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
 }
